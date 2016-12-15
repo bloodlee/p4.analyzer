@@ -1,0 +1,31 @@
+group 'org.yli'
+version '1.0-SNAPSHOT'
+
+buildscript {
+    ext.kotlin_version = '1.0.5-2'
+
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+    }
+}
+
+apply plugin: 'java'
+apply plugin: 'kotlin'
+
+sourceCompatibility = 1.5
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
+    compile group: 'commons-io', name: 'commons-io', version: '2.5'
+    compile group: 'com.google.guava', name: 'guava', version: '20.0'
+    compile group: 'com.perforce', name: 'p4java', version: '2015.2.1365273'
+    compile group: 'com.google.code.gson', name: 'gson', version: '2.8.0'
+    testCompile group: 'junit', name: 'junit', version: '4.11'
+}

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/p4.analyzer.iml" filepath="$PROJECT_DIR$/.idea/modules/p4.analyzer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/p4.analyzer_main.iml" filepath="$PROJECT_DIR$/.idea/modules/p4.analyzer_main.iml" group="p4.analyzer" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/p4.analyzer_test.iml" filepath="$PROJECT_DIR$/.idea/modules/p4.analyzer_test.iml" group="p4.analyzer" />
+    </modules>
+  </component>
+</project>
